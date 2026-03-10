@@ -5,7 +5,7 @@ from groq import Groq
 
 
 
-st.title("📄 RAG Document Chatbot")
+st.title(" RAG Document Chatbot")
 
 # API KEY
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
@@ -85,3 +85,4 @@ if st.session_state.chat_history:
         st.write("**You:**", chat["question"])
 
         st.write("**Bot:**", chat["answer"])
+
