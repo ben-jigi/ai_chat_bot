@@ -1,5 +1,5 @@
 import streamlit as st
-from Rag_arch import create_add_load, query_index
+from rag_arch import create_add_load, query_index
 from document_loader import load_pdfs_from_folder
 from groq import Groq
 
@@ -83,4 +83,5 @@ if st.session_state.chat_history:
 
     for chat in st.session_state.chat_history[::-1]:
         st.write("**You:**", chat["question"])
+
         st.write("**Bot:**", chat["answer"])
