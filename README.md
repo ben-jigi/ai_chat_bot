@@ -1,4 +1,5 @@
-### AI RAG Chatbot (Document Question Answering)
+# AI RAG Chatbot (Document Question Answering)
+
 
 An AI-powered Retrieval Augmented Generation (RAG) chatbot that answers questions from custom documents using vector search and large language models.
 
@@ -76,4 +77,6 @@ Context Construction
 LLM Generation  
 ↓  
 Answer Display
-# Live demo link: https://aichatbot-nasts4idxez6vduls2dq9z.streamlit.app
+## Live demo link: https://aichatbot-nasts4idxez6vduls2dq9z.streamlit.app
+
+*** This ai_chat_bot is trained to answer only machine learning based queries
